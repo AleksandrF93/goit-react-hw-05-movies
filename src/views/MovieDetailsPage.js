@@ -19,7 +19,7 @@ export default function MovieDetailsView() {
   return (
     <>
       <div className={s.card}>
-        <button className={s.button} type="button" onClick={() => navigate(-1)}>
+        <button className={s.button} type="button" onClick={() => navigate('/')}>
           Go back
         </button>
         {movieDetails && (
